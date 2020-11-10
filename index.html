@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Johnalex Data Converter</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="converter.js"></script>
+    </head>
+    <body>
+        
+        <div class="container">
+            <h3>Johnalex Data Converter</h3>
+            <form name="converter">
+                Data in Byte: <input type="text" name="byte" onChange="byteConverter()"/><br/>
+                Data in KiloByte: <input type="text" name="kb" onChange="kbConverter()"/><br/>
+                Data in MegaByte: <input type="text" name="mb" onChange="mbConverter()"/><br/>
+                Data in GigaByte: <input type="text" name="gb" onChange="gbConverter()"/><br/>
+
+                <!-- <input type="button" value="Convert" /> -->
+                <button type="button">Convert</button>
+            </form>
+        </div>
+    </body>
+</html>
